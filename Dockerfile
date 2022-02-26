@@ -6,7 +6,6 @@ COPY package*.json ./
 
 RUN npm install
 
-COPY ./socket.js ./socket.js
 COPY ./server.js ./server.js
 COPY ./build ./build
 

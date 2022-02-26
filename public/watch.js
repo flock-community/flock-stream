@@ -13,6 +13,7 @@ const socket = io.connect(window.location.origin);
 const videoWebcam = document.querySelector("video#watchWebcam");
 const videoScreen = document.querySelector("video#watchScreen");
 const enableAudioButton = document.querySelector("#enable-audio");
+
 if(enableAudioButton){
   enableAudioButton.addEventListener("click", enableAudio)
 }
